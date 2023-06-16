@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:ital,wght@0,100;0,500;0,900;1,300&display=swap');
 @import'mediaqueries.css';
+
 *{
     margin: 0%;
     padding: 0%;
@@ -7,14 +8,16 @@
 }
 body{
     font-family: 'roboto', sans-serif;
+    background-color: aqua;
+    background: #000;
 }
 .hero{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(/img/2023-05-31-T-12-38-37Banner_SerumsRadiant_1600x340px.jpg);
+    width: 100px;
+    height: 100px;
+    border-color: #aec45d;
 }
 .menu-bar{
-    display: none;
+    display: flex;
 }
 .navbar{
     display: grid;
@@ -25,7 +28,7 @@ body{
     color: #f7b733;
 }
 .navbar.menu {
-    grid-column: 6/9;
+    grid-column: 6 /9 ;
     display: flex;
     margin-top: 12px;
 }
@@ -33,12 +36,14 @@ body{
     list-style: none;
 }
 .menu li a{
-    text-decoration: none;
-    margin-right: 3em;
-    font-size: 1.3em;
+    text-decoration:crimson;
+    margin-right: 200%;
+    font-size: 200%;
     color: blueviolet;
-    font-weight: 200;
+    font-weight: 200%;
     padding: 10px 20px;
+    text-align: right;
+    margin-right: 10px;
 
 }
 menu li a :hover{
@@ -80,4 +85,8 @@ button{
 }
 button:hover{
     box-shadow: none;
+}
+.form-select{
+    text-align: center;
+    
 }
