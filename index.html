@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina web Debora Sittner</title>
+  
     <link rel="shortcut icon" href="/img/icono.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/estilos.css">
    <link rel="stylesheet" href="https://fonts.googleapis.com "> <enlace rel="preconectar" href="https://fonts.googleapis.com">
@@ -12,10 +13,11 @@
     
 </head>
 <body>
-    <header> <nav> <a href="#">inicio</a>
-        <a href="#">quienes somos</a>
-        <a href="#">productos</a>
-        <a href="#">contacto</a>
+    <header> <nav>
+        <a href="#quienes-somos">Quienes somos</a>
+        <a href="#Productos">Productos</a>
+        <a href="#Nuestros-servicios">Nuestros servicios</a>
+        <a href="#Contacto">Contacto</a>
     </nav>
 <section class="textos-header">
     <h1>Descubre tu Belleza</h1>
@@ -25,13 +27,14 @@
 <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-0.00,49.85 C238.93,157.97 349.20,-49.85 500.78,60.53 L509.25,168.79 L-8.23,162.88 Z" style="stroke: none; fill: #fff;"></path></svg></div>
     </header>
     <main>
+        <section class="quienes-somos" id="quienes-somos"></section>
         <section class="contenedor sobre-nosotros">
-            <h2 class="titulo">Nuestros Productos</h2>
+            <h2 class="titulo">Quienes somos</h2>
             <div class="contenedor-sobre-nosotros">
-                <img src="/img/laca-centro.jpg" alt=""class="imagen-about-us">
+                <img src="/img/laca-logo.png" alt=""class="imagen-about-us">
                 <div class="contenido-textos">
                     <h3><span>1</span>Los mejores cuidando tu piel</h3>
-                    <p>Somos una empresa numero 1 de cosmetica argentina ,nos dedicamos al cuidado de la piel y te ayudamos a elegir produtos para potenciar tu belleza </p>
+                    <p>Somos una empresa numero 1 de cosmetica argentina, desde 1956 estamos junto a vos .Nos dedicamos al cuidado de la piel ,te ayudamos a elegir produtos para potenciar tu belleza </p>
                     <h3><span>2</span>Nuestras sucursales</h3>
                     <p>Contamos con sucursales tanto en argentina como el exterior.
                     Caballito, Belgrano, Recoleta y Villa Luro son algunas de nuestras tantas sucursales en el pais.
@@ -41,6 +44,7 @@
 
 
         </section>
+        <section class="Productos"id="Productos"></section>
         <section class="portafolio">
             <div class="contenedor">
                 <h2 class="titulo">Productos</h2>
@@ -102,6 +106,7 @@
                 </div>
             </div>
         </section>
+        <section class="Nuestros-servicios"id="Nuestros-servicios"></section>
         <section class="about-services">
             <div class="contenedor">
                 <h2 class="titulo">Nuestros servicios</h2>
@@ -110,6 +115,7 @@
                         <img src="/img/escuela-laca.jpg" alt="">
                         <h3>Escuela</h3>
                         <p>Iniciá tu carrera profesional en la belleza. Cursos desarrollados por los mejores profesionales de cada área.</p>
+                        <div id="contenido"></div>
                     </div>
                     <div class="servicio-ind">
                         <img src="/img/cosmetologia.jpg" alt="">
@@ -127,7 +133,10 @@
 
         </section>
     </main>
+
+   <section class="Contacto"id="Contacto"></section>
     <footer>
+        <h3>Contacto</h3>
         <div class="contenedor-footer">
             <div class="content-foo">
                 <h4>Telefono</h4>
@@ -140,5 +149,6 @@
         </div>
         <h2 class="titulo-final">&copy; DEBORA SITTNER</h2>
     </footer>
+    <script src="/js/main.js"></script>
 </body>
 </html>
