@@ -1,1 +1,1 @@
-Pagina de belleza LACA
+Pagina de belleza LACA.
